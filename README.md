@@ -105,27 +105,50 @@ Notes
 This project was created for learning and academic purposes. Feel free to modify and use it for similar educational tasks.
 
 SCREENSHOT:
+1.
 ![WhatsApp Image 2025-07-07 at 11 16 20 PM](https://github.com/user-attachments/assets/54f78306-9c36-4541-bfa0-9b86d3483b89)
+2'
 ![WhatsApp Image 2025-07-07 at 11 16 20 PM (2)](https://github.com/user-attachments/assets/873b94b3-b99e-4d0b-b97e-fa402b3e6126)
+3.
 ![WhatsApp Image 2025-07-07 at 11 16 20 PM (1)](https://github.com/user-attachments/assets/d28af87f-de10-429c-b37a-c9576059f6f4)
+4.
 ![WhatsApp Image 2025-07-07 at 11 16 19 PM](https://github.com/user-attachments/assets/a556ae08-312e-42b2-bf50-84096169e43f)
+5.
 ![WhatsApp Image 2025-07-07 at 11 16 19 PM (1)](https://github.com/user-attachments/assets/72c7583e-6905-450d-b12d-e9fbb642e1b6)
+6.
 ![WhatsApp Image 2025-07-07 at 11 16 18 PM](https://github.com/user-attachments/assets/fef91fa8-7832-4e66-b8a9-a15c6516eeff)
+7.
 ![WhatsApp Image 2025-07-07 at 11 16 18 PM (1)](https://github.com/user-attachments/assets/319853f0-b98b-40fb-b226-c91210b42c83)
+8.
 ![WhatsApp Image 2025-07-07 at 11 16 17 PM](https://github.com/user-attachments/assets/7427bb39-e1ed-480e-bbf7-0d48b70f6d9d)
+9.
 ![WhatsApp Image 2025-07-07 at 11 16 17 PM (1)](https://github.com/user-attachments/assets/5db17205-4798-4472-9aab-0ecb5e0470e8)
+10.
 ![WhatsApp Image 2025-07-07 at 11 16 16 PM](https://github.com/user-attachments/assets/77f933d7-c451-4052-af48-1c4fcf5776a8)
+11.
 ![WhatsApp Image 2025-07-07 at 11 16 16 PM (2)](https://github.com/user-attachments/assets/7593ea1a-ed1f-4b8a-8a78-c29922a18d82)
+12.
 ![WhatsApp Image 2025-07-07 at 11 16 16 PM (1)](https://github.com/user-attachments/assets/342bf8de-1bd5-4bfc-8b50-505b6255efdd)
+13.
 ![WhatsApp Image 2025-07-07 at 11 16 15 PM](https://github.com/user-attachments/assets/864274e3-f1d9-46e1-a294-3bb1246ea68b)
+14.
 ![WhatsApp Image 2025-07-07 at 11 16 15 PM (1)](https://github.com/user-attachments/assets/7fc83e70-0404-4834-9082-bf645b56b397)
+15.
+
 ![WhatsApp Image 2025-07-07 at 11 16 14 PM](https://github.com/user-attachments/assets/dcd24e51-0454-4a8a-aa74-76edb394a8c5)
+16.
 ![WhatsApp Image 2025-07-07 at 11 16 14 PM (2)](https://github.com/user-attachments/assets/c00bb764-8b8a-4bff-b836-52ed0290a9be)
+17.
 ![WhatsApp Image 2025-07-07 at 11 16 14 PM (1)](https://github.com/user-attachments/assets/3b34c4a7-4c40-48e9-a44a-b1bf27b47a16)
+18.
 ![WhatsApp Image 2025-07-07 at 11 16 10 PM](https://github.com/user-attachments/assets/8a4cd3cd-880e-4094-82b3-51004c0ff95a)
+19.
 ![WhatsApp Image 2025-07-07 at 11 16 08 PM](https://github.com/user-attachments/assets/86ce428c-4115-4fb8-bcb0-8cc7a5d07653)
+20.
 ![WhatsApp Image 2025-07-07 at 11 16 08 PM (1)](https://github.com/user-attachments/assets/01bf3c20-ce8a-4c27-a673-468ec6e60040)
+21.
 ![WhatsApp Image 2025-07-07 at 11 16 07 PM](https://github.com/user-attachments/assets/6b9c2749-fe2b-4fa1-83ca-cfce44cf5bdc)
+22.
 ![WhatsApp Image 2025-07-07 at 11 16 06 PM](https://github.com/user-attachments/assets/9b036143-6d6f-4998-a384-f7c8bdf80a04)
 
 
