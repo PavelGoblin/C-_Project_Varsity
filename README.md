@@ -108,113 +108,157 @@ This project was created for learning and academic purposes. Feel free to modify
 
 Folder-wise Explanation
 
-1.App_Start
 
-* এই ফোল্ডারে সাধারণত শুরুতে রান হওয়া কোড থাকে।
-* যেমনঃ RouteConfig.cs, BundleConfig.cs ইত্যাদি – অ্যাপের Routing বা Resource bundling এখানে কনফিগার হয়।
-
-2. Content
-
-* CSS, custom stylesheets, site-wide ডিজাইন ফাইল থাকে।
-* উদাহরণঃ `Site.css` – আপনার ওয়েবসাইটের রঙ, ফন্ট, লে-আউট ইত্যাদি।
-
-3.Images
-
-* ওয়েবসাইটে ব্যবহৃত সকল ছবি এখানে থাকে।
-* যেমনঃ লোগো, ব্যানার, ব্যাকগ্রাউন্ড ইত্যাদি।
-
- 4. Migrations
-
-* Entity Framework Code First ব্যবহার করলে database এর ইতিহাস (migrations) এখানে রাখা হয়।
-* Example: Add-Migration, Update-Database কমান্ড এর কাজের রেকর্ড।
-
-5. Models
-
-* সকল Data Model (class) এখানে থাকে।
-* যেমনঃ `Customer.cs`, `Vehicle.cs`, `Service.cs` ইত্যাদি ক্লাস – ডেটার স্ট্রাকচার ব্যাখ্যা করে।
-
-6. Pages
-
-* সম্ভবত আপনার কাস্টম ইউআই পেইজগুলো এখানে আছে (যদি থাকে) – যেমনঃ নতুন পেইজ ডিজাইন, report page, user dashboard ইত্যাদি।
-
-7.Properties
-
-* `AssemblyInfo.cs` ইত্যাদি ফাইল থাকে যা প্রজেক্টের metadata সংরক্ষণ করে (version, author ইত্যাদি)।
-
-8.Repositories
-
-* ডেটাবেইস অপারেশনের জন্য repository pattern ব্যবহার করা হয়েছে।
-* যেমনঃ `ICustomerRepository`, `CustomerRepository` ইত্যাদি – এতে CRUD method (Create, Read, Update, Delete) থাকে।
-
-9. Scripts
-
-* JavaScript ফাইল থাকে (site.js, validation.js, jQuery ইত্যাদি)।
-* ক্লায়েন্ট-সাইড লজিক বা ইন্টারঅ্যাকশন নিয়ন্ত্রণ করে।
 
 ---
+
+## **1. App\_Start**
+
+* This folder usually contains code that runs during the application startup.
+* For example: `RouteConfig.cs`, `BundleConfig.cs` – used for configuring routing and resource bundling.
+
+---
+
+| File              | Purpose                                                         |
+| ----------------- | --------------------------------------------------------------- |
+| `RouteConfig.cs`  | Maps URLs to corresponding Controller/Action                    |
+| `BundleConfig.cs` | Combines and minifies JS and CSS files to improve loading speed |
+
+---
+
+
+
+## 2. Content
+
+* Contains CSS, custom stylesheets, and site-wide design files.
+* Example: `Site.css` – defines your website’s colors, fonts, layout, etc.
+
+---
+
+## 3. Images
+
+* All images used in the website are stored here.
+* Examples: logos, banners, backgrounds, etc.
+
+---
+
+## 4. Migrations
+
+* When using Entity Framework Code First, the database history (migrations) is kept here.
+* Example: Records of commands like Add-Migration, Update-Database.
+
+
+---
+
+## 5. Models
+
+* All data models (classes) are stored here.
+* Examples: `Customer.cs`, `Vehicle.cs`, `Service.cs` etc. — these classes define the structure of the data.
+
+---
+
+## 6. Pages
+
+* Custom UI pages are here (if any) — such as newly designed pages, report pages, user dashboards, etc.
+
+---
+
+## 7. Properties
+
+* Files like `AssemblyInfo.cs` that store project metadata (version, author, etc.) are kept here.
+
+---
+
+## 8. Repositories
+
+* The repository pattern is used for database operations.
+* Examples: `ICustomerRepository`, `CustomerRepository` etc. — these contain CRUD methods (Create, Read, Update, Delete).
+
+---
+
+## 9. Scripts
+
+* JavaScript files are stored here (e.g. site.js, validation.js, jQuery etc.).
+* They handle client-side logic and interaction.
+
+
 
 📄 File-wise Explanation (Main Web Pages and Configurations)
 
   1)   About.aspx / Default.aspx
 
-* WebForms পেজ, যেগুলো HTML + Server Controls দিয়ে তৈরি।
-* `About.aspx` → About Us পেইজ।
-* `Default.aspx` → Home page।
+---
 
-2)    .cs and .designer.cs ফাইলসমূহ
+## 1) WebForms Pages
 
-* `aspx.cs` → C# কোড (code-behind) যা user interaction হ্যান্ডেল করে।
-* `aspx.designer.cs` → অটোমেটিক জেনারেটেড partial class, যা server control গুলোর declaration রাখে।
-
-3)    GarageManager.csproj
-
-* পুরো প্রজেক্টের configuration ফাইল (build info, references, project settings)।
-
-4)   Global.asax / Global.asax.cs
-
-* ওয়েব অ্যাপের Life Cycle events (Start, End, Error) হ্যান্ডেল করে।
-* যেমনঃ Application\_Start(), Session\_Start()।
-
-5)  Site.Master / Site.Mobile.Master
-
-* MasterPage ফাইল যা একটি common layout তৈরি করে (header, footer, menu)।
-* Desktop ও Mobile view আলাদা MasterPage ব্যবহৃত হচ্ছে।
-
-6)     ViewSwitcher.ascx
-
-* এটি একটি UserControl যা মোবাইল/ডেস্কটপ ভিউ পরিবর্তনের UI দিতে পারে।
-
-7)    Web.config / Web.Debug.config / Web.Release.config
-
-* প্রধান configuration ফাইল (Database connection, app settings, authentication, authorization)।
-* `Debug` ও `Release` configuration আলাদা পরিবেশে ব্যবহার হয়।
-
-8)   favicon.ico
-
-* ব্রাউজার ট্যাবে ওয়েবসাইটের আইকন।
-
-9)   libman.json
-
-* Client-side library manager configuration ফাইল।
-* Bootstrap/jQuery এর version & source নির্ধারণ করে।
-
-10)   packages.config
-
-* NuGet প্যাকেজের লিস্ট ও version info।
+* WebForms pages built using HTML + Server Controls.
+* `About.aspx` → About Us page.
+* `Default.aspx` → Home page.
 
 ---
 
-সাধারণভাবে এই GarageManager কী ধরনের কাজ করে?
+## 2) `.cs` and `.designer.cs` files
 
-এই প্রজেক্টের নাম এবং স্ট্রাকচার দেখে ধারণা করা যায় এটি একটি "Garage Management System", যেখানে হতে পারে:
-
-Customer info management
-Vehicle info tracking
-Service records (repair/maintenance)
-Reports and Dashboard
-Authentication system (optional)
+* `aspx.cs` → C# code-behind that handles user interaction.
+* `aspx.designer.cs` → Automatically generated partial class containing declarations of server controls.
 
 ---
+
+## 3) GarageManager.csproj
+
+* The project configuration file containing build info, references, and project settings.
+
+---
+
+## 4) Global.asax / Global.asax.cs
+
+* Handles web app life cycle events like Start, End, and Error.
+* Examples: `Application_Start()`, `Session_Start()`.
+
+---
+
+## 5) Site.Master / Site.Mobile.Master
+
+* MasterPage files that create a common layout (header, footer, menu).
+* Separate MasterPages are used for Desktop and Mobile views.
+
+
+
+---
+
+## 6) ViewSwitcher.ascx
+
+* A UserControl that provides UI to switch between mobile and desktop views.
+
+---
+
+## 7) Web.config / Web.Debug.config / Web.Release.config
+
+* Main configuration files (database connection, app settings, authentication, authorization).
+* `Debug` and `Release` configurations are used in different environments.
+
+---
+
+## 8) favicon.ico
+
+* The website icon shown in the browser tab.
+
+---
+
+## 9) libman.json
+
+* Client-side library manager configuration file.
+* Specifies versions and sources for libraries like Bootstrap and jQuery.
+
+---
+
+## 10) packages.config
+
+* List of NuGet packages and their version information.
+
+
+
+
 
 
 
