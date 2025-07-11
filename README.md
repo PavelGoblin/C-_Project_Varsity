@@ -1,4 +1,4 @@
-Garage Manager – ASP.NET Web Forms Project
+Garage Manager – ASP.NET Web Forms Project.
 This project is an updated version of the GarageManager website, adapted to meet modern development standards and ensure compatibility with current systems. It serves as a comprehensive Garage Management System, facilitating the management of customers, vehicles, and service records.
 
 
